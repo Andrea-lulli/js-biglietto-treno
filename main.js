@@ -34,12 +34,12 @@ let prezzoFinale;
 
 if ( anni <= 18 ){
    
-    console.log(prezzoFinale = prezzoBiglietto - ( prezzoBiglietto * 0.2 ));
+    console.log(prezzoFinale = (prezzoBiglietto - ( prezzoBiglietto * 0.2 )).toFixed(2));
     
     
  } else if  ( anni >= 65) {
     
-    console.log(prezzoFinale = prezzoBiglietto - ( prezzoBiglietto * 0.4 ));
+    console.log(prezzoFinale = (prezzoBiglietto - ( prezzoBiglietto * 0.4 )).toFixed(2));
 
 
 } else {
