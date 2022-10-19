@@ -50,7 +50,7 @@ if ( anni <= 18 ){
 
 
 // prezzo finale in base all'età
-let prezzo = document.getElementById("text").innerHTML = `La tuo prezzo finale è: ${prezzoFinale}`;
+let prezzo = document.getElementById("text").innerHTML = `La tuo prezzo finale è: ${prezzoFinale} euro`;
 
 
 
