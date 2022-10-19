@@ -29,15 +29,21 @@ let prezzoBiglietto = NumeroKm * "0.21"
 
 console.log(prezzoBiglietto);
 
-let prezzoFinale;
+let prezzoFinale = "";
 
 console.log(prezzoFinale);
 
 
-if (anni <= 18) {
+if ( anni <= 18 ){
 
-    prezzoFinale = (prezzoBiglietto * 0.21);
-}
+    console.log("ninorenne")
+}   else if  ( anni >= 65) {
+
+console.log("maggiorenne")
+} else {
+
+    console.log("normale")
+    } 
 
 
 
